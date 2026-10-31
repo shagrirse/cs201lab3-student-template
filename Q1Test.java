@@ -71,7 +71,6 @@ public class Q1Test {
           System.out.println();
      } 
 
-      // write your codes here
      public static String verify(String traversal1, String traversal2, String traversal3) {
           int[] t1 = Arrays.stream(traversal1.split("-"))
                                    .map(String::trim)
